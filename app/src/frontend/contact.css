@@ -1,0 +1,199 @@
+
+.sur{
+  background: linear-gradient(to left, #b0a43f, rgb(199, 184, 184));
+}
+.rakesh{
+  background: linear-gradient(to left, #2dd84c, rgb(198, 199, 184));
+}
+.siva{
+  background: linear-gradient(to left, #17647a, rgb(194, 20, 20));
+}
+.siva1{
+  background: linear-gradient(to left, #2b98a0, rgb(199, 184, 184));
+}
+.yuvi{
+  background: linear-gradient(to left, #0a696f, rgb(199, 184, 184));
+}
+.location{
+  background: linear-gradient(to left, #044348, rgb(198, 115, 115));
+}
+/* Add styles for the scroll-to-top button */
+.scrollToTopBtn {
+  position: fixed; /* Make the button a fixed element */
+  bottom: 20px; /* Adjust the distance from the bottom as desired */
+  right: 20px; /* Adjust the distance from the right as desired */
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #fbff00;
+  color: rgb(27, 178, 13);
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 50%;
+  display: none;
+  font-weight: bold;
+  font-size: xx-large;
+  height: 70px;
+  width: 70px;
+}
+.scrollToTopBtn.visible {
+  display: block;
+}
+
+
+/* login.css */
+
+.auth-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color:#ebe2e2; /* Background color for the screen */
+}
+
+.auth-card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff; /* Background color for the login card */
+  width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.log {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #555;
+
+}
+
+.card-form {
+  text-align: left;
+  margin-right:30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+label p {
+  display: inline;
+}
+
+label span {
+  color: red;
+  margin-left: 5px;
+}
+
+.log{
+  width: 100%;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  padding: 10px;
+  background-color: rgba(0, 123, 255, 0.723);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left:40px;
+  margin-top:20px;
+  width:380px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.forgot-password {
+  color: #007bff;
+  cursor: pointer;
+  margin-left:300px;
+  text-decoration:underline;
+}
+/* contact.css */
+
+.auth-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.button-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+}
+
+button {
+  margin-left: 10px;
+}
+
+.auth-card {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.auth-card.login {
+  transform: translateX(0);
+}
+
+.auth-card.register {
+  transform: translateX(-100%);
+}
+
+h1 {
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.forgot-password {
+  margin-top: 10px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+
+
